@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(114, 104, 65);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -105,6 +105,7 @@ nav ul li a:hover {
     nav ul {
         width: 50%;
     }
+
 }
 
 /* ukuran mobile */
@@ -217,6 +218,7 @@ nav ul li a:hover {
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .tentang .wrapper h2 {
@@ -335,6 +337,7 @@ nav ul li a:hover {
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .pendidikan .wrapper h2 {
