@@ -12,7 +12,7 @@ body {
 
 nav {
     display: flex;
-    background-color:rgb(55, 55, 55);
+    background-color: rgb(114, 104, 65);
     justify-content: space-around;
     padding: 20px 0;
     color: rgb(0, 0, 0);
@@ -121,7 +121,7 @@ nav ul li a:hover {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(55, 55, 55);
+        background-color: rgb(114, 104, 65);
         z-index: 1;
         transform: translateX(100%);
         transition: all 1s;
@@ -210,7 +210,7 @@ nav ul li a:hover {
 }
 
 .tentang {
-    background: #f7c72a;
+    background: #ba9623;
     color: white;
     text-align: center;
     padding: 15px 10px;
@@ -250,9 +250,20 @@ nav ul li a:hover {
     border-right: none;
 }
 
+.tentang .wrapper a:hover {
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 30px;
+    border: 5px solid rgb(145, 139, 139);
+    border-top: none;
+    border-left:none;
+    border-right: none;
+}
 
 .skill {
-    background: #c79900;
+    background: #b3983e;
     color: white;
     text-align: center;
     padding: 15px 10px;
@@ -262,7 +273,7 @@ nav ul li a:hover {
 }
 
 .skill .wrapper {
-    width: 80%;
+    width: 100%;
 }
 
 .skill .wrapper h2 {
@@ -299,7 +310,7 @@ nav ul li a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    height: 40px;
+    height: 30px;
     background: blue;
     z-index: 2;
 }
@@ -317,9 +328,9 @@ nav ul li a:hover {
 }
 
 .pendidikan {
-    background: #f7c72a;
+    background: #ba9623;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 15px 10px;
     height: 100vh;
     display: flex;
@@ -343,10 +354,26 @@ nav ul li a:hover {
     padding: 0 35px;
     text-shadow: 0px 1px 1px black;
     margin-bottom:  50PX;
-}   
+}
+
+.pendidikan .wrapper .riwayat {
+    float: left;
+    width: 600px;
+    margin-right: 5px;
+    min-height: 300px ;
+
+}
+
+.pendidikan .wrapper .pengalaman {
+    float: left;
+    width: 600px;
+    margin-right: 5px;
+    min-height: 300px ;
+    
+}
 
 .footer {
-    background:rgb(55, 55, 55);
+    background:rgb(114, 104, 65);
     color: black;
     text-align: center;
     padding: 15px 0px;
